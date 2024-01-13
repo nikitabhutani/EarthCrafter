@@ -10,6 +10,7 @@ class EApptheme {
     primaryColor: Colors.blue,
     scaffoldBackgroundColor: Colors.white,
     textTheme: ETextTheme.lighttexttheme,
+    elevatedButtonTheme: ElevatedButtonThemeData(),
   );
   static ThemeData Darktheme = ThemeData(
     useMaterial3: true,
