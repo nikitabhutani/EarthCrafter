@@ -14,9 +14,9 @@ class App extends StatelessWidget {
       //thememode will remain the same as system
       themeMode: ThemeMode.system,
       //specification for light theme
-      theme:EApptheme.Lighttheme,
+      theme:EApptheme.LightTheme,
       //specification for dark theme
-      darkTheme: EApptheme.Darktheme,
+      darkTheme: EApptheme.DarkTheme,
     );
   }
 }
