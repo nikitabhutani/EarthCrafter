@@ -30,6 +30,45 @@ static const double fontSizeMd = 16 ;
 
 static const double fontSizeLg = 18.6 ;
 
+
+
+// Button sizes
+
+static const double buttonHeight = 18;
+
+static const double buttonRadius = 12 ;
+
+static const double buttonWidth =120.0 ;
+
+static const double buttonElevation = 4;
+
+// AppBar height
+
+static const double appBarHeight = 56;
+
+// Image sizes
+
+static const double imageThumbSize = 80 ;
+
+// Default spacing between sections
+
+static const double defaultSpace = 24 ;
+
+static const double spaceBtwItems = 16.0;
+
+static const double spaceBtwSections = 32 ;
+// Border radius
+
+static const double borderRadiusSm = 4;
+
+static const double borderRadiusMd = 8;
+
+static const double borderRadiusLg = 12;
+
+// Divider height
+
+static const double dividerHeight = 1;
+
 // Product item dimensions
 
 static const double productImageSize = 12.0;
