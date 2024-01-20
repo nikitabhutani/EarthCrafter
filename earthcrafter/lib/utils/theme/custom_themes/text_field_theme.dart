@@ -19,7 +19,7 @@ class ETextFormFieldTheme {
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
 
     floatingLabelStyle:
-        const TextStyle().copyWith(color: Colors.black.withOpacity(8.8)),
+        const TextStyle().copyWith(color: Colors.black.withOpacity(0.8)),
 
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
@@ -60,7 +60,7 @@ class ETextFormFieldTheme {
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
 
     floatingLabelStyle:
-        const TextStyle().copyWith(color: Colors.white.withOpacity(8.8)),
+        const TextStyle().copyWith(color: Colors.white.withOpacity(0.8)),
 
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
