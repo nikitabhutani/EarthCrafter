@@ -1,32 +1,6 @@
-import 'package:earthcrafter/utils/constants/images.dart';
 import 'package:earthcrafter/utils/constants/sizes.dart';
-import 'package:earthcrafter/utils/constants/textstrings.dart';
 import 'package:earthcrafter/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
-class OnboardingScreen extends StatelessWidget {
-  const OnboardingScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Stack(
-        children: [
-          //horizontal scrollable  Pages
-          PageView(
-            children:[
-             OnboardingPage(image:EImages.delivery,title:ETextStrings.Onboarding1 ,subtitle: ETextStrings.Onboarding1Subheading),
-
-             OnboardingPage(image:EImages.donation,title:ETextStrings.Onboarding2 ,subtitle: ETextStrings.Onboarding2Subheading),
-
-             OnboardingPage(image:EImages.market,title:ETextStrings.Onboarding3 ,subtitle: ETextStrings.Onboarding3Subheading),
-            ]
-          )
-        ],
-      )
-    );
-  }
-}
-
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({
     super.key, required this.image, required this.title, required this.subtitle,
