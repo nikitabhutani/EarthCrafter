@@ -11,4 +11,10 @@ class EImages {
   static const String verify_email =
       "assets/images/animations/verify_email.gif";
   static const String completed = "assets/images/animations/completed.png";
+  static const String pickup = "assets/images/animations/pickup.png";
+  static const String cow = "assets/images/animations/cow.png";
+  static const String nature = "assets/images/animations/nature.png";
+  static const String milk = "assets/images/animations/milk.png";
+  static const String yogurt = "assets/images/animations/yogurt.png";
+  static const String cheese = "assets/images/animations/cheese.png";
 }

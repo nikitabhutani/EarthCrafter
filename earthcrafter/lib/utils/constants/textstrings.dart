@@ -19,5 +19,8 @@ class ETextStrings {
   static const String VerifyEmailSubtitle =
       "Check the inbox of the email you've enetered. Click on the link to verify your email.";
   static const String SuccessScreenSubtitle = "Your Account Has Been Created!!";
-  static const String ForgotPasswordSubtitle = "Please enter your email to reset the password";
+  static const String ForgotPasswordSubtitle =
+      "Please enter your email to reset the password";
+  static const String HomePageTitle = "Your Gateway to Green Living";
+  static const String HomePageSubTitle = "Seemless Doorstep Collection services and a marketPlace await, making Sustainability a Way Of Life";
 }

@@ -1,3 +1,5 @@
+import 'package:earthcrafter/features/pickup/screens/home.dart';
+import 'package:earthcrafter/features/shop/screens/marketplace.dart';
 import 'package:earthcrafter/utils/constants/colors.dart';
 import 'package:earthcrafter/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
@@ -43,12 +45,8 @@ class NavigationMenu extends StatelessWidget {
 class NavigationController extends GetxController {
   final Rx<int> selectedIndex = 0.obs; //what is being observed
   final screens = [
-    Container(
-      color: Colors.blue,
-    ),
-    Container(
-      color: Colors.purple,
-    ),
+    HomePage(),
+    DairyMarketplacePage(),
     Container(
       color: Colors.green,
     ),
